@@ -1,5 +1,7 @@
 from pathlib import Path
 from src.ingestion.file_identification import identify_files
+from src.ingestion.file_manager import prepare_files, get_pending_files
+
 
 BASE_DIRECTORY = Path(__file__).resolve().parent
 
@@ -32,12 +34,12 @@ def find_raw_files_paths(extenstions, raw_data_directory):
 if __name__ == "__main__":
     create_directories()
 
-    file_paths = find_raw_files_paths(EXTENSIONS,RAW_DATA_DIRECTORY)
-    
-    files_metadata = identify_files(file_paths, RAW_DATA_DIRECTORY)
+    files_data = prepare_files(RAW_DATA_DIRECTORY, EXTENSIONS)
+    pending_files = get_pending_files(files_data)
 
-    for file in file_paths:
-        print(file)
+    for file_metadata in files_data:
+        print(file_metadata)
 
-    for metadata in files_metadata:
-        print(metadata)
+    print("\nTotal files:", len(files_data))
+    print("Pending files:", len(pending_files))
+    print("Duplicate files:", len(files_data) - len(pending_files))

@@ -1,7 +1,7 @@
 from pathlib import Path
-from src.ingestion.file_identification import identify_files
 from src.ingestion.file_manager import prepare_files, get_pending_files
-
+from src.parsing.file_parser import parse_all_files
+from src.parsing.save_parsed import save_all_parsed_files
 
 BASE_DIRECTORY = Path(__file__).resolve().parent
 
@@ -18,28 +18,17 @@ def create_directories():
 
 EXTENSIONS = ['.pdf', ".docx", ".xlsx", '.xls', ".csv", ".txt", ".png", ".jpg", ".jpeg"]
 
-
-def find_raw_files_paths(extenstions, raw_data_directory):
-    raw_data_paths = []
-    for item in raw_data_directory.rglob("*"):
-        if item.is_dir():
-            continue
-        else:
-            if item.suffix.lower() in extenstions:
-                raw_data_paths.append(item)
-    
-    return raw_data_paths
-
-
 if __name__ == "__main__":
     create_directories()
 
     files_data = prepare_files(RAW_DATA_DIRECTORY, EXTENSIONS)
     pending_files = get_pending_files(files_data)
-
-    for file_metadata in files_data:
-        print(file_metadata)
+    parsed_files = parse_all_files(pending_files)
+    saved_paths = save_all_parsed_files(parsed_files, PARSED_DATA_DIRECTORY, files_data)
 
     print("\nTotal files:", len(files_data))
-    print("Pending files:", len(pending_files))
-    print("Duplicate files:", len(files_data) - len(pending_files))
+    print("Successfully parsed:", len(parsed_files))
+    print("Saved JSON files:", len(saved_paths))
+
+    for path in saved_paths:
+        print("Saved:", path)

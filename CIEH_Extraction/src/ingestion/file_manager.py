@@ -1,5 +1,4 @@
-
-from main import find_raw_files_paths
+from src.ingestion.file_discovery import find_raw_files_paths
 from src.ingestion.file_identification import identify_files
 from src.ingestion.file_hashing import detect_duplicate_files
 

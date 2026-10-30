@@ -1,0 +1,221 @@
+{
+    "source_id": "Source_001",
+    "response_id": "Response_001",
+    "filename": "FOI 443.xlsx",
+    "source": {
+        "original_filename": "FOI 443.xlsx",
+        "relative_path": null,
+        "file_path": "E:\\CIEH\\180_Degrees_Consulting_CIEH\\CIEH_Extraction\\data\\raw\\FOI 443.xlsx",
+        "file_hash": "98e80d95caaba97d57e26a4a5ba5a5c1f41a5e91b0f616240ae0857218e75e61",
+        "response_id": "Response_001",
+        "file_size": 13613
+    },
+    "model_provider": "gemini",
+    "extraction": {
+        "council_name": null,
+        "records": [
+            {
+                "year": "2016-17",
+                "category": "unknown",
+                "metric_type": "unknown",
+                "count": 7,
+                "evidence_text": "Year: 2016-17, Practitoner: 7",
+                "source_location": "Sheet '10 Years', row 2016-17, Practitoner column",
+                "notes": "Listed under Special Treatment licences"
+            },
+            {
+                "year": "2016-17",
+                "category": "unknown",
+                "metric_type": "unknown",
+                "count": 0,
+                "evidence_text": "Year: 2016-17, Premises: 0",
+                "source_location": "Sheet '10 Years', row 2016-17, Premises column",
+                "notes": "Listed under Special Treatment licences"
+            },
+            {
+                "year": "2017-18",
+                "category": "unknown",
+                "metric_type": "unknown",
+                "count": 7,
+                "evidence_text": "Year: 2017-18, Practitoner: 7",
+                "source_location": "Sheet '10 Years', row 2017-18, Practitoner column",
+                "notes": "Listed under Special Treatment licences"
+            },
+            {
+                "year": "2017-18",
+                "category": "unknown",
+                "metric_type": "unknown",
+                "count": 0,
+                "evidence_text": "Year: 2017-18, Premises: 0",
+                "source_location": "Sheet '10 Years', row 2017-18, Premises column",
+                "notes": "Listed under Special Treatment licences"
+            },
+            {
+                "year": "2018-19",
+                "category": "unknown",
+                "metric_type": "unknown",
+                "count": 4,
+                "evidence_text": "Year: 2018-19, Practitoner: 4",
+                "source_location": "Sheet '10 Years', row 2018-19, Practitoner column",
+                "notes": "Listed under Special Treatment licences"
+            },
+            {
+                "year": "2018-19",
+                "category": "unknown",
+                "metric_type": "unknown",
+                "count": 1,
+                "evidence_text": "Year: 2018-19, Premises: 1",
+                "source_location": "Sheet '10 Years', row 2018-19, Premises column",
+                "notes": "Listed under Special Treatment licences"
+            },
+            {
+                "year": "2019-20",
+                "category": "unknown",
+                "metric_type": "unknown",
+                "count": 3,
+                "evidence_text": "Year: 2019-20, Practitoner: 3",
+                "source_location": "Sheet '10 Years', row 2019-20, Practitoner column",
+                "notes": "Listed under Special Treatment licences"
+            },
+            {
+                "year": "2019-20",
+                "category": "unknown",
+                "metric_type": "unknown",
+                "count": 0,
+                "evidence_text": "Year: 2019-20, Premises: 0",
+                "source_location": "Sheet '10 Years', row 2019-20, Premises column",
+                "notes": "Listed under Special Treatment licences"
+            },
+            {
+                "year": "2020-21",
+                "category": "unknown",
+                "metric_type": "unknown",
+                "count": 2,
+                "evidence_text": "Year: 2020-21, Practitoner: 2",
+                "source_location": "Sheet '10 Years', row 2020-21, Practitoner column",
+                "notes": "Listed under Special Treatment licences"
+            },
+            {
+                "year": "2020-21",
+                "category": "unknown",
+                "metric_type": "unknown",
+                "count": 1,
+                "evidence_text": "Year: 2020-21, Premises: 1",
+                "source_location": "Sheet '10 Years', row 2020-21, Premises column",
+                "notes": "Listed under Special Treatment licences"
+            },
+            {
+                "year": "2021-22",
+                "category": "unknown",
+                "metric_type": "unknown",
+                "count": 8,
+                "evidence_text": "Year: 2021-22, Practitoner: 8",
+                "source_location": "Sheet '10 Years', row 2021-22, Practitoner column",
+                "notes": "Listed under Special Treatment licences"
+            },
+            {
+                "year": "2021-22",
+                "category": "unknown",
+                "metric_type": "unknown",
+                "count": 5,
+                "evidence_text": "Year: 2021-22, Premises: 5",
+                "source_location": "Sheet '10 Years', row 2021-22, Premises column",
+                "notes": "Listed under Special Treatment licences"
+            },
+            {
+                "year": "2022-23",
+                "category": "unknown",
+                "metric_type": "unknown",
+                "count": 6,
+                "evidence_text": "Year: 2022-23, Practitoner: 6",
+                "source_location": "Sheet '10 Years', row 2022-23, Practitoner column",
+                "notes": "Listed under Special Treatment licences"
+            },
+            {
+                "year": "2022-23",
+                "category": "unknown",
+                "metric_type": "unknown",
+                "count": 1,
+                "evidence_text": "Year: 2022-23, Premises: 1",
+                "source_location": "Sheet '10 Years', row 2022-23, Premises column",
+                "notes": "Listed under Special Treatment licences"
+            },
+            {
+                "year": "2023-24",
+                "category": "unknown",
+                "metric_type": "unknown",
+                "count": 11,
+                "evidence_text": "Year: 2023-24, Practitoner: 11",
+                "source_location": "Sheet '10 Years', row 2023-24, Practitoner column",
+                "notes": "Listed under Special Treatment licences"
+            },
+            {
+                "year": "2023-24",
+                "category": "unknown",
+                "metric_type": "unknown",
+                "count": 6,
+                "evidence_text": "Year: 2023-24, Premises: 6",
+                "source_location": "Sheet '10 Years', row 2023-24, Premises column",
+                "notes": "Listed under Special Treatment licences"
+            },
+            {
+                "year": "2024-25",
+                "category": "unknown",
+                "metric_type": "unknown",
+                "count": 3,
+                "evidence_text": "Year: 2024-25, Practitoner: 3",
+                "source_location": "Sheet '10 Years', row 2024-25, Practitoner column",
+                "notes": "Listed under Special Treatment licences"
+            },
+            {
+                "year": "2024-25",
+                "category": "unknown",
+                "metric_type": "unknown",
+                "count": 2,
+                "evidence_text": "Year: 2024-25, Premises: 2",
+                "source_location": "Sheet '10 Years', row 2024-25, Premises column",
+                "notes": "Listed under Special Treatment licences"
+            },
+            {
+                "year": "2025-26",
+                "category": "unknown",
+                "metric_type": "unknown",
+                "count": 7,
+                "evidence_text": "Year: 2025-26, Practitoner: 7",
+                "source_location": "Sheet '10 Years', row 2025-26, Practitoner column",
+                "notes": "Listed under Special Treatment licences"
+            },
+            {
+                "year": "2025-26",
+                "category": "unknown",
+                "metric_type": "unknown",
+                "count": 4,
+                "evidence_text": "Year: 2025-26, Premises: 4",
+                "source_location": "Sheet '10 Years', row 2025-26, Premises column",
+                "notes": "Listed under Special Treatment licences"
+            },
+            {
+                "year": "2026-27",
+                "category": "unknown",
+                "metric_type": "unknown",
+                "count": 5,
+                "evidence_text": "Year: 2026-27, Practitoner: 5",
+                "source_location": "Sheet '10 Years', row 2026-27, Practitoner column",
+                "notes": "Listed under Special Treatment licences"
+            },
+            {
+                "year": "2026-27",
+                "category": "unknown",
+                "metric_type": "unknown",
+                "count": 2,
+                "evidence_text": "Year: 2026-27, Premises: 2",
+                "source_location": "Sheet '10 Years', row 2026-27, Premises column",
+                "notes": "Listed under Special Treatment licences"
+            }
+        ],
+        "review_required": true,
+        "review_reason": "Data refers to 'Special Treatment' rather than explicitly specifying tattoo registrations, the metric type is not explicitly labeled, and future financial years are included."
+    },
+    "review_status": "pending",
+    "validation_status": "schema_valid"
+}

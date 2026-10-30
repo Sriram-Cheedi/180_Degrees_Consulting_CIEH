@@ -1,9 +1,0 @@
-Example Borough Council
-
-The total number of registered tattoo premises was:
-
-2022/23: 120
-2023/24: 135
-2024/25: 149
-
-These are premises registrations, not practitioners.

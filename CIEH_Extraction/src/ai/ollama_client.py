@@ -4,13 +4,13 @@ OLLAMA_URL = "http://localhost:11434/api/generate"
 MODEL_NAME = "qwen3:4b"
 
 
-def generate_response(prompt: str) -> str:
+def generate_response(prompt: str, response_schema: dict | None = None) -> str:
     payload = {
         "model": MODEL_NAME,
         "prompt": prompt,
         "stream": False,
         "think": False,
-        "format": "json",
+        "format": response_schema if response_schema is not None else "json",
         "options": {
             "temperature": 0
         }

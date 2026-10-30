@@ -16,205 +16,205 @@
         "records": [
             {
                 "year": "2016-17",
-                "category": "unknown",
-                "metric_type": "unknown",
+                "category": "tattoo_practitioners",
+                "metric_type": "new_registrations",
                 "count": 7,
-                "evidence_text": "Year: 2016-17, Practitoner: 7",
-                "source_location": "Sheet '10 Years', row 2016-17, Practitoner column",
-                "notes": "Listed under Special Treatment licences"
+                "evidence_text": "['Year', 'Practitoner', 'Premises'], ['2016-17', '7', '0']",
+                "source_location": "Worksheet '10 Years', table columns 7-9, row 3",
+                "notes": "Labelled as Special Treatment - Personal in transaction log"
             },
             {
                 "year": "2016-17",
-                "category": "unknown",
-                "metric_type": "unknown",
+                "category": "tattoo_premises",
+                "metric_type": "new_registrations",
                 "count": 0,
-                "evidence_text": "Year: 2016-17, Premises: 0",
-                "source_location": "Sheet '10 Years', row 2016-17, Premises column",
-                "notes": "Listed under Special Treatment licences"
+                "evidence_text": "['Year', 'Practitoner', 'Premises'], ['2016-17', '7', '0']",
+                "source_location": "Worksheet '10 Years', table columns 7-9, row 3",
+                "notes": "Labelled as Special Treatment - Premises in transaction log"
             },
             {
                 "year": "2017-18",
-                "category": "unknown",
-                "metric_type": "unknown",
+                "category": "tattoo_practitioners",
+                "metric_type": "new_registrations",
                 "count": 7,
-                "evidence_text": "Year: 2017-18, Practitoner: 7",
-                "source_location": "Sheet '10 Years', row 2017-18, Practitoner column",
-                "notes": "Listed under Special Treatment licences"
+                "evidence_text": "['Year', 'Practitoner', 'Premises'], ['2017-18', '7', '0']",
+                "source_location": "Worksheet '10 Years', table columns 7-9, row 4",
+                "notes": "Labelled as Special Treatment - Personal in transaction log"
             },
             {
                 "year": "2017-18",
-                "category": "unknown",
-                "metric_type": "unknown",
+                "category": "tattoo_premises",
+                "metric_type": "new_registrations",
                 "count": 0,
-                "evidence_text": "Year: 2017-18, Premises: 0",
-                "source_location": "Sheet '10 Years', row 2017-18, Premises column",
-                "notes": "Listed under Special Treatment licences"
+                "evidence_text": "['Year', 'Practitoner', 'Premises'], ['2017-18', '7', '0']",
+                "source_location": "Worksheet '10 Years', table columns 7-9, row 4",
+                "notes": "Labelled as Special Treatment - Premises in transaction log"
             },
             {
                 "year": "2018-19",
-                "category": "unknown",
-                "metric_type": "unknown",
+                "category": "tattoo_practitioners",
+                "metric_type": "new_registrations",
                 "count": 4,
-                "evidence_text": "Year: 2018-19, Practitoner: 4",
-                "source_location": "Sheet '10 Years', row 2018-19, Practitoner column",
-                "notes": "Listed under Special Treatment licences"
+                "evidence_text": "['Year', 'Practitoner', 'Premises'], ['2018-19', '4', '1']",
+                "source_location": "Worksheet '10 Years', table columns 7-9, row 5",
+                "notes": "Labelled as Special Treatment - Personal in transaction log"
             },
             {
                 "year": "2018-19",
-                "category": "unknown",
-                "metric_type": "unknown",
+                "category": "tattoo_premises",
+                "metric_type": "new_registrations",
                 "count": 1,
-                "evidence_text": "Year: 2018-19, Premises: 1",
-                "source_location": "Sheet '10 Years', row 2018-19, Premises column",
-                "notes": "Listed under Special Treatment licences"
+                "evidence_text": "['Year', 'Practitoner', 'Premises'], ['2018-19', '4', '1']",
+                "source_location": "Worksheet '10 Years', table columns 7-9, row 5",
+                "notes": "Labelled as Special Treatment - Premises in transaction log"
             },
             {
                 "year": "2019-20",
-                "category": "unknown",
-                "metric_type": "unknown",
+                "category": "tattoo_practitioners",
+                "metric_type": "new_registrations",
                 "count": 3,
-                "evidence_text": "Year: 2019-20, Practitoner: 3",
-                "source_location": "Sheet '10 Years', row 2019-20, Practitoner column",
-                "notes": "Listed under Special Treatment licences"
+                "evidence_text": "['Year', 'Practitoner', 'Premises'], ['2019-20', '3', '0']",
+                "source_location": "Worksheet '10 Years', table columns 7-9, row 6",
+                "notes": "Labelled as Special Treatment - Personal in transaction log"
             },
             {
                 "year": "2019-20",
-                "category": "unknown",
-                "metric_type": "unknown",
+                "category": "tattoo_premises",
+                "metric_type": "new_registrations",
                 "count": 0,
-                "evidence_text": "Year: 2019-20, Premises: 0",
-                "source_location": "Sheet '10 Years', row 2019-20, Premises column",
-                "notes": "Listed under Special Treatment licences"
+                "evidence_text": "['Year', 'Practitoner', 'Premises'], ['2019-20', '3', '0']",
+                "source_location": "Worksheet '10 Years', table columns 7-9, row 6",
+                "notes": "Labelled as Special Treatment - Premises in transaction log"
             },
             {
                 "year": "2020-21",
-                "category": "unknown",
-                "metric_type": "unknown",
+                "category": "tattoo_practitioners",
+                "metric_type": "new_registrations",
                 "count": 2,
-                "evidence_text": "Year: 2020-21, Practitoner: 2",
-                "source_location": "Sheet '10 Years', row 2020-21, Practitoner column",
-                "notes": "Listed under Special Treatment licences"
+                "evidence_text": "['Year', 'Practitoner', 'Premises'], ['2020-21', '2', '1']",
+                "source_location": "Worksheet '10 Years', table columns 7-9, row 7",
+                "notes": "Labelled as Special Treatment - Personal in transaction log"
             },
             {
                 "year": "2020-21",
-                "category": "unknown",
-                "metric_type": "unknown",
+                "category": "tattoo_premises",
+                "metric_type": "new_registrations",
                 "count": 1,
-                "evidence_text": "Year: 2020-21, Premises: 1",
-                "source_location": "Sheet '10 Years', row 2020-21, Premises column",
-                "notes": "Listed under Special Treatment licences"
+                "evidence_text": "['Year', 'Practitoner', 'Premises'], ['2020-21', '2', '1']",
+                "source_location": "Worksheet '10 Years', table columns 7-9, row 7",
+                "notes": "Labelled as Special Treatment - Premises in transaction log"
             },
             {
                 "year": "2021-22",
-                "category": "unknown",
-                "metric_type": "unknown",
+                "category": "tattoo_practitioners",
+                "metric_type": "new_registrations",
                 "count": 8,
-                "evidence_text": "Year: 2021-22, Practitoner: 8",
-                "source_location": "Sheet '10 Years', row 2021-22, Practitoner column",
-                "notes": "Listed under Special Treatment licences"
+                "evidence_text": "['Year', 'Practitoner', 'Premises'], ['2021-22', '8', '5']",
+                "source_location": "Worksheet '10 Years', table columns 7-9, row 8",
+                "notes": "Labelled as Special Treatment - Personal in transaction log"
             },
             {
                 "year": "2021-22",
-                "category": "unknown",
-                "metric_type": "unknown",
+                "category": "tattoo_premises",
+                "metric_type": "new_registrations",
                 "count": 5,
-                "evidence_text": "Year: 2021-22, Premises: 5",
-                "source_location": "Sheet '10 Years', row 2021-22, Premises column",
-                "notes": "Listed under Special Treatment licences"
+                "evidence_text": "['Year', 'Practitoner', 'Premises'], ['2021-22', '8', '5']",
+                "source_location": "Worksheet '10 Years', table columns 7-9, row 8",
+                "notes": "Labelled as Special Treatment - Premises in transaction log"
             },
             {
                 "year": "2022-23",
-                "category": "unknown",
-                "metric_type": "unknown",
+                "category": "tattoo_practitioners",
+                "metric_type": "new_registrations",
                 "count": 6,
-                "evidence_text": "Year: 2022-23, Practitoner: 6",
-                "source_location": "Sheet '10 Years', row 2022-23, Practitoner column",
-                "notes": "Listed under Special Treatment licences"
+                "evidence_text": "['Year', 'Practitoner', 'Premises'], ['2022-23', '6', '1']",
+                "source_location": "Worksheet '10 Years', table columns 7-9, row 9",
+                "notes": "Labelled as Special Treatment - Personal in transaction log"
             },
             {
                 "year": "2022-23",
-                "category": "unknown",
-                "metric_type": "unknown",
+                "category": "tattoo_premises",
+                "metric_type": "new_registrations",
                 "count": 1,
-                "evidence_text": "Year: 2022-23, Premises: 1",
-                "source_location": "Sheet '10 Years', row 2022-23, Premises column",
-                "notes": "Listed under Special Treatment licences"
+                "evidence_text": "['Year', 'Practitoner', 'Premises'], ['2022-23', '6', '1']",
+                "source_location": "Worksheet '10 Years', table columns 7-9, row 9",
+                "notes": "Labelled as Special Treatment - Premises in transaction log"
             },
             {
                 "year": "2023-24",
-                "category": "unknown",
-                "metric_type": "unknown",
+                "category": "tattoo_practitioners",
+                "metric_type": "new_registrations",
                 "count": 11,
-                "evidence_text": "Year: 2023-24, Practitoner: 11",
-                "source_location": "Sheet '10 Years', row 2023-24, Practitoner column",
-                "notes": "Listed under Special Treatment licences"
+                "evidence_text": "['Year', 'Practitoner', 'Premises'], ['2023-24', '11', '6']",
+                "source_location": "Worksheet '10 Years', table columns 7-9, row 10",
+                "notes": "Includes Personal and Joint Applications"
             },
             {
                 "year": "2023-24",
-                "category": "unknown",
-                "metric_type": "unknown",
+                "category": "tattoo_premises",
+                "metric_type": "new_registrations",
                 "count": 6,
-                "evidence_text": "Year: 2023-24, Premises: 6",
-                "source_location": "Sheet '10 Years', row 2023-24, Premises column",
-                "notes": "Listed under Special Treatment licences"
+                "evidence_text": "['Year', 'Practitoner', 'Premises'], ['2023-24', '11', '6']",
+                "source_location": "Worksheet '10 Years', table columns 7-9, row 10",
+                "notes": "Includes Premises and Joint Applications"
             },
             {
                 "year": "2024-25",
-                "category": "unknown",
-                "metric_type": "unknown",
+                "category": "tattoo_practitioners",
+                "metric_type": "new_registrations",
                 "count": 3,
-                "evidence_text": "Year: 2024-25, Practitoner: 3",
-                "source_location": "Sheet '10 Years', row 2024-25, Practitoner column",
-                "notes": "Listed under Special Treatment licences"
+                "evidence_text": "['Year', 'Practitoner', 'Premises'], ['2024-25', '3', '2']",
+                "source_location": "Worksheet '10 Years', table columns 7-9, row 11",
+                "notes": "Includes future-dated records in transaction log"
             },
             {
                 "year": "2024-25",
-                "category": "unknown",
-                "metric_type": "unknown",
+                "category": "tattoo_premises",
+                "metric_type": "new_registrations",
                 "count": 2,
-                "evidence_text": "Year: 2024-25, Premises: 2",
-                "source_location": "Sheet '10 Years', row 2024-25, Premises column",
-                "notes": "Listed under Special Treatment licences"
+                "evidence_text": "['Year', 'Practitoner', 'Premises'], ['2024-25', '3', '2']",
+                "source_location": "Worksheet '10 Years', table columns 7-9, row 11",
+                "notes": "Includes future-dated records in transaction log"
             },
             {
                 "year": "2025-26",
-                "category": "unknown",
-                "metric_type": "unknown",
+                "category": "tattoo_practitioners",
+                "metric_type": "new_registrations",
                 "count": 7,
-                "evidence_text": "Year: 2025-26, Practitoner: 7",
-                "source_location": "Sheet '10 Years', row 2025-26, Practitoner column",
-                "notes": "Listed under Special Treatment licences"
+                "evidence_text": "['Year', 'Practitoner', 'Premises'], ['2025-26', '7', '4']",
+                "source_location": "Worksheet '10 Years', table columns 7-9, row 12",
+                "notes": "Includes future-dated records in transaction log"
             },
             {
                 "year": "2025-26",
-                "category": "unknown",
-                "metric_type": "unknown",
+                "category": "tattoo_premises",
+                "metric_type": "new_registrations",
                 "count": 4,
-                "evidence_text": "Year: 2025-26, Premises: 4",
-                "source_location": "Sheet '10 Years', row 2025-26, Premises column",
-                "notes": "Listed under Special Treatment licences"
+                "evidence_text": "['Year', 'Practitoner', 'Premises'], ['2025-26', '7', '4']",
+                "source_location": "Worksheet '10 Years', table columns 7-9, row 12",
+                "notes": "Includes future-dated records in transaction log"
             },
             {
                 "year": "2026-27",
-                "category": "unknown",
-                "metric_type": "unknown",
+                "category": "tattoo_practitioners",
+                "metric_type": "new_registrations",
                 "count": 5,
-                "evidence_text": "Year: 2026-27, Practitoner: 5",
-                "source_location": "Sheet '10 Years', row 2026-27, Practitoner column",
-                "notes": "Listed under Special Treatment licences"
+                "evidence_text": "['Year', 'Practitoner', 'Premises'], ['2026-27', '5', '2']",
+                "source_location": "Worksheet '10 Years', table columns 7-9, row 13",
+                "notes": "Includes future-dated records in transaction log"
             },
             {
                 "year": "2026-27",
-                "category": "unknown",
-                "metric_type": "unknown",
+                "category": "tattoo_premises",
+                "metric_type": "new_registrations",
                 "count": 2,
-                "evidence_text": "Year: 2026-27, Premises: 2",
-                "source_location": "Sheet '10 Years', row 2026-27, Premises column",
-                "notes": "Listed under Special Treatment licences"
+                "evidence_text": "['Year', 'Practitoner', 'Premises'], ['2026-27', '5', '2']",
+                "source_location": "Worksheet '10 Years', table columns 7-9, row 13",
+                "notes": "Includes future-dated records in transaction log"
             }
         ],
         "review_required": true,
-        "review_reason": "Data refers to 'Special Treatment' rather than explicitly specifying tattoo registrations, the metric type is not explicitly labeled, and future financial years are included."
+        "review_reason": "Figures are labelled as general 'Special Treatment' (Personal, Premises, Joint Application) rather than explicitly tattoo-only, and the underlying data includes future dates up to 2026-27."
     },
     "review_status": "pending",
     "validation_status": "schema_valid"

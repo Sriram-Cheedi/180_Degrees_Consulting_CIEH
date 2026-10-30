@@ -87,67 +87,69 @@
 22,FOI 443.xlsx,review_year,Check year: 2026-27
 22,FOI 443.xlsx,ambiguous_category,Category: unknown
 22,FOI 443.xlsx,ambiguous_metric,Metric: unknown
-23,FOI002930_Response.pdf,missing_council,Council name not identified
-23,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
-24,FOI002930_Response.pdf,missing_council,Council name not identified
-24,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
-25,FOI002930_Response.pdf,missing_council,Council name not identified
-25,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
-26,FOI002930_Response.pdf,missing_council,Council name not identified
-26,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
-27,FOI002930_Response.pdf,missing_council,Council name not identified
-27,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
-28,FOI002930_Response.pdf,missing_council,Council name not identified
-28,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
-29,FOI002930_Response.pdf,missing_council,Council name not identified
-29,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
-30,FOI002930_Response.pdf,missing_council,Council name not identified
-30,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
-31,FOI002930_Response.pdf,missing_council,Council name not identified
-31,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
-32,FOI002930_Response.pdf,missing_council,Council name not identified
-32,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
-33,FOI002930_Response.pdf,missing_council,Council name not identified
-33,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
-34,FOI002930_Response.pdf,missing_council,Council name not identified
-34,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
-35,FOI002930_Response.pdf,missing_council,Council name not identified
-35,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
-36,FOI002930_Response.pdf,missing_council,Council name not identified
-36,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
-37,FOI002930_Response.pdf,missing_council,Council name not identified
-37,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
-38,FOI002930_Response.pdf,missing_council,Council name not identified
-38,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
-39,FOI002930_Response.pdf,missing_council,Council name not identified
-39,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
-40,FOI002930_Response.pdf,missing_council,Council name not identified
-40,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
-41,FOI002930_Response.pdf,missing_council,Council name not identified
-41,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
-42,FOI002930_Response.pdf,missing_council,Council name not identified
-42,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
-43,FOI002930_Response.pdf,missing_council,Council name not identified
-43,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
-44,FOI002930_Response.pdf,missing_council,Council name not identified
-44,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
-45,Lewisham_Borough_Council.txt,missing_council,Council name not identified
-46,Lewisham_Borough_Council.txt,missing_council,Council name not identified
-47,Lewisham_Borough_Council.txt,missing_council,Council name not identified
-48,Lewisham_Borough_Council.txt,missing_council,Council name not identified
-49,Lewisham_Borough_Council.txt,missing_council,Council name not identified
-50,Lewisham_Borough_Council.txt,missing_council,Council name not identified
-51,Lewisham_Borough_Council.txt,missing_council,Council name not identified
-52,Lewisham_Borough_Council.txt,missing_council,Council name not identified
-53,Lewisham_Borough_Council.txt,missing_council,Council name not identified
-54,Lewisham_Borough_Council.txt,missing_council,Council name not identified
-55,Lewisham_Borough_Council.txt,missing_council,Council name not identified
-56,Lewisham_Borough_Council.txt,missing_council,Council name not identified
-57,Lewisham_Borough_Council.txt,missing_council,Council name not identified
-58,Lewisham_Borough_Council.txt,missing_council,Council name not identified
-59,Lewisham_Borough_Council.txt,missing_council,Council name not identified
-60,Lewisham_Borough_Council.txt,missing_council,Council name not identified
-61,Lewisham_Borough_Council.txt,missing_council,Council name not identified
-62,Lewisham_Borough_Council.txt,missing_council,Council name not identified
-63,Lewisham_Borough_Council.txt,missing_council,Council name not identified
-64,Lewisham_Borough_Council.txt,missing_council,Council name not identified
+23,FOI 443.xlsx,missing_council,Council name not identified
+23,FOI 443.xlsx,review_year,Check year: 2016-17
+24,FOI 443.xlsx,missing_council,Council name not identified
+24,FOI 443.xlsx,review_year,Check year: 2016-17
+25,FOI 443.xlsx,missing_council,Council name not identified
+25,FOI 443.xlsx,review_year,Check year: 2017-18
+26,FOI 443.xlsx,missing_council,Council name not identified
+26,FOI 443.xlsx,review_year,Check year: 2017-18
+27,FOI 443.xlsx,missing_council,Council name not identified
+27,FOI 443.xlsx,review_year,Check year: 2018-19
+28,FOI 443.xlsx,missing_council,Council name not identified
+28,FOI 443.xlsx,review_year,Check year: 2018-19
+29,FOI 443.xlsx,missing_council,Council name not identified
+29,FOI 443.xlsx,review_year,Check year: 2019-20
+30,FOI 443.xlsx,missing_council,Council name not identified
+30,FOI 443.xlsx,review_year,Check year: 2019-20
+31,FOI 443.xlsx,missing_council,Council name not identified
+31,FOI 443.xlsx,review_year,Check year: 2020-21
+32,FOI 443.xlsx,missing_council,Council name not identified
+32,FOI 443.xlsx,review_year,Check year: 2020-21
+33,FOI 443.xlsx,missing_council,Council name not identified
+33,FOI 443.xlsx,review_year,Check year: 2021-22
+34,FOI 443.xlsx,missing_council,Council name not identified
+34,FOI 443.xlsx,review_year,Check year: 2021-22
+35,FOI 443.xlsx,missing_council,Council name not identified
+35,FOI 443.xlsx,review_year,Check year: 2022-23
+36,FOI 443.xlsx,missing_council,Council name not identified
+36,FOI 443.xlsx,review_year,Check year: 2022-23
+37,FOI 443.xlsx,missing_council,Council name not identified
+37,FOI 443.xlsx,review_year,Check year: 2023-24
+38,FOI 443.xlsx,missing_council,Council name not identified
+38,FOI 443.xlsx,review_year,Check year: 2023-24
+39,FOI 443.xlsx,missing_council,Council name not identified
+39,FOI 443.xlsx,review_year,Check year: 2024-25
+40,FOI 443.xlsx,missing_council,Council name not identified
+40,FOI 443.xlsx,review_year,Check year: 2024-25
+41,FOI 443.xlsx,missing_council,Council name not identified
+41,FOI 443.xlsx,review_year,Check year: 2025-26
+42,FOI 443.xlsx,missing_council,Council name not identified
+42,FOI 443.xlsx,review_year,Check year: 2025-26
+43,FOI 443.xlsx,missing_council,Council name not identified
+43,FOI 443.xlsx,review_year,Check year: 2026-27
+44,FOI 443.xlsx,missing_council,Council name not identified
+44,FOI 443.xlsx,review_year,Check year: 2026-27
+45,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
+46,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
+47,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
+48,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
+49,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
+50,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
+51,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
+52,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
+53,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
+54,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
+55,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
+56,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
+57,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
+58,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
+59,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
+60,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
+61,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
+62,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
+63,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
+64,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
+65,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
+66,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown

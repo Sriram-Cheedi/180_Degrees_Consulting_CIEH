@@ -1,174 +1,171 @@
 
-from collections import defaultdict
-from datetime import datetime
+import json
 import re
-from src.database.connection import get_connection
+from collections import Counter, defaultdict
+from datetime import datetime
+from pathlib import Path
+
+from src.ai.extraction_schema import ExtractionRecord
 
 
-VALID_CATEGORIES = {
-    "tattoo_premises",
-    "tattoo_practitioners",
-    "combined_premises_and_practitioners",
-    "other",
-    "unknown"
-}
+def valid_year(year: str | None) -> bool:
+    if year is None:
+        return False
 
-VALID_METRICS = {
-    "active_register_total",
-    "new_registrations",
-    "applications",
-    "other",
-    "unknown"
-}
-
-
-def audit_database():
-    connection = get_connection()
-
-    try:
-        records = connection.execute(
-            """
-            SELECT
-                er.id,
-                r.council_name,
-                sf.filename,
-                sf.file_hash,
-                er.year,
-                er.category,
-                er.metric_type,
-                er.count,
-                er.evidence_text,
-                er.review_status,
-                run.id AS run_id
-            FROM extraction_records er
-            JOIN extraction_runs run
-                ON er.extraction_run_id = run.id
-            JOIN source_files sf
-                ON run.source_file_id = sf.id
-            JOIN responses r
-                ON sf.response_id = r.id
-            WHERE run.status = 'completed'
-              AND run.model_provider != 'gemini_test'
-            ORDER BY er.id
-            """
-        ).fetchall()
-
-    finally:
-        connection.close()
-
-    issues = []
-    duplicate_groups = defaultdict(list)
-
+    year = str(year).strip()
     current_year = datetime.now().year
 
-    for record in records:
-        record = dict(record)
-        record_id = record["id"]
+    # Calendar year: 2023
+    if re.fullmatch(r"\d{4}", year):
+        return 1900 <= int(year) <= current_year
 
-        def flag(issue_type, message):
-            issues.append({
-                "record_id": record_id,
-                "filename": record["filename"],
-                "issue_type": issue_type,
-                "message": message
-            })
+    # Financial year: 2023/24 or 2023-24
+    match = re.fullmatch(r"(\d{4})[/-](\d{2}|\d{4})", year)
 
-        # 1. Missing council
-        if not record["council_name"] or not record["council_name"].strip():
-            flag("missing_council", "Council name not identified")
+    if match:
+        start = int(match.group(1))
+        ending = match.group(2)
 
-        # 2. Invalid or missing year
-        year = record["year"]
-        if year is None or not str(year).strip():
-            flag("missing_year", "Year is missing")
-        else:
-            year_text = str(year).strip()
-
-            calendar_year = re.fullmatch(r"\d{4}", year_text)
-            financial_year = re.fullmatch(
-                r"(\d{4})/(\d{2})",
-                year_text
-                )
-
-            if calendar_year:
-                valid = 1900 <= int(year_text) <= current_year
-
-            elif financial_year:
-                start_year = int(financial_year.group(1))
-                end_year = int(financial_year.group(2))
-
-                valid = (
-                    1900 <= start_year <= current_year
-                    and end_year == (start_year + 1) % 100
-                )
-
-            else:
-                valid = False
-
-            if not valid:
-                flag("review_year", f"Check year: {year_text}")
-
-        # 3. Categories
-        if record["category"] not in VALID_CATEGORIES:
-            flag("invalid_category", str(record["category"]))
-
-        elif record["category"] in {"other", "unknown"}:
-            flag(
-                "ambiguous_category",
-                f"Category: {record['category']}"
-            )
-
-        # 4. Metric types
-        if record["metric_type"] not in VALID_METRICS:
-            flag("invalid_metric", str(record["metric_type"]))
-
-        elif record["metric_type"] in {"other", "unknown"}:
-            flag(
-                "ambiguous_metric",
-                f"Metric: {record['metric_type']}"
-            )
-
-        # 5. Counts
-        if (
-            type(record["count"]) is not int
-            or record["count"] < 0
-        ):
-            flag("invalid_count", "Count is invalid")
-
-        # 6. Evidence
-        if not record["evidence_text"] or not record["evidence_text"].strip():
-            flag("missing_evidence", "Supporting evidence is missing")
-
-        # 7. Detect potentially repeated observations
-        key = (
-            record["council_name"],
-            record["year"],
-            record["category"],
-            record["metric_type"],
-            record["count"]
+        end = (
+            int(ending)
+            if len(ending) == 4
+            else (start // 100) * 100 + int(ending)
         )
 
-        duplicate_groups[key].append(record_id)
+        return (
+            1900 <= start <= current_year
+            and end == start + 1
+        )
 
-    for record_ids in duplicate_groups.values():
-        if len(record_ids) > 1:
-            issues.append({
-                "record_id": ", ".join(map(str, record_ids)),
-                "filename": "Multiple records",
-                "issue_type": "possible_duplicate",
-                "message": (
-                    "Same council, year, category, "
-                    "metric and count"
+    return False
+
+
+def audit_extractions(extracted_directory: Path):
+    extracted_directory = Path(extracted_directory)
+
+    issues = []
+    total_records = 0
+    seen_sources = set()
+    observations = defaultdict(list)
+
+    def flag(record_id, filename, issue_type, message):
+        issues.append({
+            "record_id": record_id,
+            "filename": filename,
+            "issue_type": issue_type,
+            "message": message
+        })
+
+    for json_path in sorted(extracted_directory.glob("*.json")):
+
+        data = json.loads(
+            json_path.read_text(encoding="utf-8")
+        )
+
+        source = data.get("source") or {}
+        file_hash = source.get("file_hash")
+
+        if not file_hash:
+            raise ValueError(
+                f"Missing file hash: {json_path.name}"
+            )
+
+        if file_hash in seen_sources:
+            continue
+
+        seen_sources.add(file_hash)
+
+        extraction = data.get("extraction") or {}
+        filename = data.get("filename") or json_path.name
+        council = extraction.get("council_name")
+        records = extraction.get("records") or []
+
+        for index, record in enumerate(records, start=1):
+            total_records += 1
+
+            record_id = f"{file_hash}-{index:04d}"
+
+            # 1. Council identification
+            if not council or not str(council).strip():
+                flag(
+                    record_id, filename,
+                    "missing_council",
+                    "Council name not identified"
                 )
-            })
+
+            # 2. Year validation
+            if not valid_year(record.get("year")):
+                flag(
+                    record_id, filename,
+                    "review_year",
+                    f"Check year: {record.get('year')}"
+                )
+
+            # 3. Schema validation
+            try:
+                ExtractionRecord.model_validate(record)
+            except Exception as error:
+                flag(
+                    record_id, filename,
+                    "schema_error",
+                    str(error)
+                )
+
+            # 4. Ambiguous category
+            if record.get("category") in {"other", "unknown"}:
+                flag(
+                    record_id, filename,
+                    "ambiguous_category",
+                    f"Category: {record.get('category')}"
+                )
+
+            # 5. Ambiguous metric
+            if record.get("metric_type") in {"other", "unknown"}:
+                flag(
+                    record_id, filename,
+                    "ambiguous_metric",
+                    f"Metric: {record.get('metric_type')}"
+                )
+
+            # 6. Missing supporting evidence
+            evidence = record.get("evidence_text")
+
+            if not evidence or not str(evidence).strip():
+                flag(
+                    record_id, filename,
+                    "missing_evidence",
+                    "Supporting evidence is missing"
+                )
+
+            # 7. Possible duplicate observations
+            # Restrict to the same source document.
+            key = (
+                file_hash,
+                record.get("year"),
+                record.get("category"),
+                record.get("metric_type"),
+                record.get("count")
+            )
+
+            observations[key].append((record_id, filename))
+
+    for matching_records in observations.values():
+        if len(matching_records) > 1:
+            ids = [item[0] for item in matching_records]
+
+            for record_id, filename in matching_records:
+                flag(
+                    record_id, filename,
+                    "possible_duplicate",
+                    f"Potential duplicate IDs: {', '.join(ids)}"
+                )
 
     summary = {
-        "records_checked": len(records),
+        "documents_checked": len(seen_sources),
+        "records_checked": total_records,
         "issues_found": len(issues),
         "records_flagged": len({
-            item["record_id"]
-            for item in issues
-            if isinstance(item["record_id"], int)
+            issue["record_id"] for issue in issues
         })
     }
 

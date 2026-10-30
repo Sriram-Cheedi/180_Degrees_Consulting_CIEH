@@ -1,155 +1,45 @@
 ﻿record_id,filename,issue_type,message
-1,FOI 443.xlsx,missing_council,Council name not identified
-1,FOI 443.xlsx,review_year,Check year: 2016-17
-1,FOI 443.xlsx,ambiguous_category,Category: unknown
-1,FOI 443.xlsx,ambiguous_metric,Metric: unknown
-2,FOI 443.xlsx,missing_council,Council name not identified
-2,FOI 443.xlsx,review_year,Check year: 2016-17
-2,FOI 443.xlsx,ambiguous_category,Category: unknown
-2,FOI 443.xlsx,ambiguous_metric,Metric: unknown
-3,FOI 443.xlsx,missing_council,Council name not identified
-3,FOI 443.xlsx,review_year,Check year: 2017-18
-3,FOI 443.xlsx,ambiguous_category,Category: unknown
-3,FOI 443.xlsx,ambiguous_metric,Metric: unknown
-4,FOI 443.xlsx,missing_council,Council name not identified
-4,FOI 443.xlsx,review_year,Check year: 2017-18
-4,FOI 443.xlsx,ambiguous_category,Category: unknown
-4,FOI 443.xlsx,ambiguous_metric,Metric: unknown
-5,FOI 443.xlsx,missing_council,Council name not identified
-5,FOI 443.xlsx,review_year,Check year: 2018-19
-5,FOI 443.xlsx,ambiguous_category,Category: unknown
-5,FOI 443.xlsx,ambiguous_metric,Metric: unknown
-6,FOI 443.xlsx,missing_council,Council name not identified
-6,FOI 443.xlsx,review_year,Check year: 2018-19
-6,FOI 443.xlsx,ambiguous_category,Category: unknown
-6,FOI 443.xlsx,ambiguous_metric,Metric: unknown
-7,FOI 443.xlsx,missing_council,Council name not identified
-7,FOI 443.xlsx,review_year,Check year: 2019-20
-7,FOI 443.xlsx,ambiguous_category,Category: unknown
-7,FOI 443.xlsx,ambiguous_metric,Metric: unknown
-8,FOI 443.xlsx,missing_council,Council name not identified
-8,FOI 443.xlsx,review_year,Check year: 2019-20
-8,FOI 443.xlsx,ambiguous_category,Category: unknown
-8,FOI 443.xlsx,ambiguous_metric,Metric: unknown
-9,FOI 443.xlsx,missing_council,Council name not identified
-9,FOI 443.xlsx,review_year,Check year: 2020-21
-9,FOI 443.xlsx,ambiguous_category,Category: unknown
-9,FOI 443.xlsx,ambiguous_metric,Metric: unknown
-10,FOI 443.xlsx,missing_council,Council name not identified
-10,FOI 443.xlsx,review_year,Check year: 2020-21
-10,FOI 443.xlsx,ambiguous_category,Category: unknown
-10,FOI 443.xlsx,ambiguous_metric,Metric: unknown
-11,FOI 443.xlsx,missing_council,Council name not identified
-11,FOI 443.xlsx,review_year,Check year: 2021-22
-11,FOI 443.xlsx,ambiguous_category,Category: unknown
-11,FOI 443.xlsx,ambiguous_metric,Metric: unknown
-12,FOI 443.xlsx,missing_council,Council name not identified
-12,FOI 443.xlsx,review_year,Check year: 2021-22
-12,FOI 443.xlsx,ambiguous_category,Category: unknown
-12,FOI 443.xlsx,ambiguous_metric,Metric: unknown
-13,FOI 443.xlsx,missing_council,Council name not identified
-13,FOI 443.xlsx,review_year,Check year: 2022-23
-13,FOI 443.xlsx,ambiguous_category,Category: unknown
-13,FOI 443.xlsx,ambiguous_metric,Metric: unknown
-14,FOI 443.xlsx,missing_council,Council name not identified
-14,FOI 443.xlsx,review_year,Check year: 2022-23
-14,FOI 443.xlsx,ambiguous_category,Category: unknown
-14,FOI 443.xlsx,ambiguous_metric,Metric: unknown
-15,FOI 443.xlsx,missing_council,Council name not identified
-15,FOI 443.xlsx,review_year,Check year: 2023-24
-15,FOI 443.xlsx,ambiguous_category,Category: unknown
-15,FOI 443.xlsx,ambiguous_metric,Metric: unknown
-16,FOI 443.xlsx,missing_council,Council name not identified
-16,FOI 443.xlsx,review_year,Check year: 2023-24
-16,FOI 443.xlsx,ambiguous_category,Category: unknown
-16,FOI 443.xlsx,ambiguous_metric,Metric: unknown
-17,FOI 443.xlsx,missing_council,Council name not identified
-17,FOI 443.xlsx,review_year,Check year: 2024-25
-17,FOI 443.xlsx,ambiguous_category,Category: unknown
-17,FOI 443.xlsx,ambiguous_metric,Metric: unknown
-18,FOI 443.xlsx,missing_council,Council name not identified
-18,FOI 443.xlsx,review_year,Check year: 2024-25
-18,FOI 443.xlsx,ambiguous_category,Category: unknown
-18,FOI 443.xlsx,ambiguous_metric,Metric: unknown
-19,FOI 443.xlsx,missing_council,Council name not identified
-19,FOI 443.xlsx,review_year,Check year: 2025-26
-19,FOI 443.xlsx,ambiguous_category,Category: unknown
-19,FOI 443.xlsx,ambiguous_metric,Metric: unknown
-20,FOI 443.xlsx,missing_council,Council name not identified
-20,FOI 443.xlsx,review_year,Check year: 2025-26
-20,FOI 443.xlsx,ambiguous_category,Category: unknown
-20,FOI 443.xlsx,ambiguous_metric,Metric: unknown
-21,FOI 443.xlsx,missing_council,Council name not identified
-21,FOI 443.xlsx,review_year,Check year: 2026-27
-21,FOI 443.xlsx,ambiguous_category,Category: unknown
-21,FOI 443.xlsx,ambiguous_metric,Metric: unknown
-22,FOI 443.xlsx,missing_council,Council name not identified
-22,FOI 443.xlsx,review_year,Check year: 2026-27
-22,FOI 443.xlsx,ambiguous_category,Category: unknown
-22,FOI 443.xlsx,ambiguous_metric,Metric: unknown
-23,FOI 443.xlsx,missing_council,Council name not identified
-23,FOI 443.xlsx,review_year,Check year: 2016-17
-24,FOI 443.xlsx,missing_council,Council name not identified
-24,FOI 443.xlsx,review_year,Check year: 2016-17
-25,FOI 443.xlsx,missing_council,Council name not identified
-25,FOI 443.xlsx,review_year,Check year: 2017-18
-26,FOI 443.xlsx,missing_council,Council name not identified
-26,FOI 443.xlsx,review_year,Check year: 2017-18
-27,FOI 443.xlsx,missing_council,Council name not identified
-27,FOI 443.xlsx,review_year,Check year: 2018-19
-28,FOI 443.xlsx,missing_council,Council name not identified
-28,FOI 443.xlsx,review_year,Check year: 2018-19
-29,FOI 443.xlsx,missing_council,Council name not identified
-29,FOI 443.xlsx,review_year,Check year: 2019-20
-30,FOI 443.xlsx,missing_council,Council name not identified
-30,FOI 443.xlsx,review_year,Check year: 2019-20
-31,FOI 443.xlsx,missing_council,Council name not identified
-31,FOI 443.xlsx,review_year,Check year: 2020-21
-32,FOI 443.xlsx,missing_council,Council name not identified
-32,FOI 443.xlsx,review_year,Check year: 2020-21
-33,FOI 443.xlsx,missing_council,Council name not identified
-33,FOI 443.xlsx,review_year,Check year: 2021-22
-34,FOI 443.xlsx,missing_council,Council name not identified
-34,FOI 443.xlsx,review_year,Check year: 2021-22
-35,FOI 443.xlsx,missing_council,Council name not identified
-35,FOI 443.xlsx,review_year,Check year: 2022-23
-36,FOI 443.xlsx,missing_council,Council name not identified
-36,FOI 443.xlsx,review_year,Check year: 2022-23
-37,FOI 443.xlsx,missing_council,Council name not identified
-37,FOI 443.xlsx,review_year,Check year: 2023-24
-38,FOI 443.xlsx,missing_council,Council name not identified
-38,FOI 443.xlsx,review_year,Check year: 2023-24
-39,FOI 443.xlsx,missing_council,Council name not identified
-39,FOI 443.xlsx,review_year,Check year: 2024-25
-40,FOI 443.xlsx,missing_council,Council name not identified
-40,FOI 443.xlsx,review_year,Check year: 2024-25
-41,FOI 443.xlsx,missing_council,Council name not identified
-41,FOI 443.xlsx,review_year,Check year: 2025-26
-42,FOI 443.xlsx,missing_council,Council name not identified
-42,FOI 443.xlsx,review_year,Check year: 2025-26
-43,FOI 443.xlsx,missing_council,Council name not identified
-43,FOI 443.xlsx,review_year,Check year: 2026-27
-44,FOI 443.xlsx,missing_council,Council name not identified
-44,FOI 443.xlsx,review_year,Check year: 2026-27
-45,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
-46,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
-47,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
-48,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
-49,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
-50,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
-51,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
-52,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
-53,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
-54,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
-55,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
-56,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
-57,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
-58,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
-59,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
-60,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
-61,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
-62,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
-63,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
-64,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
-65,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
-66,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
+50bd7a00375cbe659481011f67cd3b138c5ef84473c1914e0eb3c764acf0431b-0001,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
+50bd7a00375cbe659481011f67cd3b138c5ef84473c1914e0eb3c764acf0431b-0002,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
+50bd7a00375cbe659481011f67cd3b138c5ef84473c1914e0eb3c764acf0431b-0003,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
+50bd7a00375cbe659481011f67cd3b138c5ef84473c1914e0eb3c764acf0431b-0004,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
+50bd7a00375cbe659481011f67cd3b138c5ef84473c1914e0eb3c764acf0431b-0005,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
+50bd7a00375cbe659481011f67cd3b138c5ef84473c1914e0eb3c764acf0431b-0006,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
+50bd7a00375cbe659481011f67cd3b138c5ef84473c1914e0eb3c764acf0431b-0007,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
+50bd7a00375cbe659481011f67cd3b138c5ef84473c1914e0eb3c764acf0431b-0008,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
+50bd7a00375cbe659481011f67cd3b138c5ef84473c1914e0eb3c764acf0431b-0009,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
+50bd7a00375cbe659481011f67cd3b138c5ef84473c1914e0eb3c764acf0431b-0010,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
+50bd7a00375cbe659481011f67cd3b138c5ef84473c1914e0eb3c764acf0431b-0011,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
+50bd7a00375cbe659481011f67cd3b138c5ef84473c1914e0eb3c764acf0431b-0012,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
+50bd7a00375cbe659481011f67cd3b138c5ef84473c1914e0eb3c764acf0431b-0013,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
+50bd7a00375cbe659481011f67cd3b138c5ef84473c1914e0eb3c764acf0431b-0014,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
+50bd7a00375cbe659481011f67cd3b138c5ef84473c1914e0eb3c764acf0431b-0015,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
+50bd7a00375cbe659481011f67cd3b138c5ef84473c1914e0eb3c764acf0431b-0016,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
+50bd7a00375cbe659481011f67cd3b138c5ef84473c1914e0eb3c764acf0431b-0017,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
+50bd7a00375cbe659481011f67cd3b138c5ef84473c1914e0eb3c764acf0431b-0018,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
+50bd7a00375cbe659481011f67cd3b138c5ef84473c1914e0eb3c764acf0431b-0019,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
+50bd7a00375cbe659481011f67cd3b138c5ef84473c1914e0eb3c764acf0431b-0020,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
+50bd7a00375cbe659481011f67cd3b138c5ef84473c1914e0eb3c764acf0431b-0021,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
+50bd7a00375cbe659481011f67cd3b138c5ef84473c1914e0eb3c764acf0431b-0022,FOI002930_Response.pdf,ambiguous_metric,Metric: unknown
+98e80d95caaba97d57e26a4a5ba5a5c1f41a5e91b0f616240ae0857218e75e61-0001,FOI 443.xlsx,missing_council,Council name not identified
+98e80d95caaba97d57e26a4a5ba5a5c1f41a5e91b0f616240ae0857218e75e61-0002,FOI 443.xlsx,missing_council,Council name not identified
+98e80d95caaba97d57e26a4a5ba5a5c1f41a5e91b0f616240ae0857218e75e61-0003,FOI 443.xlsx,missing_council,Council name not identified
+98e80d95caaba97d57e26a4a5ba5a5c1f41a5e91b0f616240ae0857218e75e61-0004,FOI 443.xlsx,missing_council,Council name not identified
+98e80d95caaba97d57e26a4a5ba5a5c1f41a5e91b0f616240ae0857218e75e61-0005,FOI 443.xlsx,missing_council,Council name not identified
+98e80d95caaba97d57e26a4a5ba5a5c1f41a5e91b0f616240ae0857218e75e61-0006,FOI 443.xlsx,missing_council,Council name not identified
+98e80d95caaba97d57e26a4a5ba5a5c1f41a5e91b0f616240ae0857218e75e61-0007,FOI 443.xlsx,missing_council,Council name not identified
+98e80d95caaba97d57e26a4a5ba5a5c1f41a5e91b0f616240ae0857218e75e61-0008,FOI 443.xlsx,missing_council,Council name not identified
+98e80d95caaba97d57e26a4a5ba5a5c1f41a5e91b0f616240ae0857218e75e61-0009,FOI 443.xlsx,missing_council,Council name not identified
+98e80d95caaba97d57e26a4a5ba5a5c1f41a5e91b0f616240ae0857218e75e61-0010,FOI 443.xlsx,missing_council,Council name not identified
+98e80d95caaba97d57e26a4a5ba5a5c1f41a5e91b0f616240ae0857218e75e61-0011,FOI 443.xlsx,missing_council,Council name not identified
+98e80d95caaba97d57e26a4a5ba5a5c1f41a5e91b0f616240ae0857218e75e61-0012,FOI 443.xlsx,missing_council,Council name not identified
+98e80d95caaba97d57e26a4a5ba5a5c1f41a5e91b0f616240ae0857218e75e61-0013,FOI 443.xlsx,missing_council,Council name not identified
+98e80d95caaba97d57e26a4a5ba5a5c1f41a5e91b0f616240ae0857218e75e61-0014,FOI 443.xlsx,missing_council,Council name not identified
+98e80d95caaba97d57e26a4a5ba5a5c1f41a5e91b0f616240ae0857218e75e61-0015,FOI 443.xlsx,missing_council,Council name not identified
+98e80d95caaba97d57e26a4a5ba5a5c1f41a5e91b0f616240ae0857218e75e61-0016,FOI 443.xlsx,missing_council,Council name not identified
+98e80d95caaba97d57e26a4a5ba5a5c1f41a5e91b0f616240ae0857218e75e61-0017,FOI 443.xlsx,missing_council,Council name not identified
+98e80d95caaba97d57e26a4a5ba5a5c1f41a5e91b0f616240ae0857218e75e61-0018,FOI 443.xlsx,missing_council,Council name not identified
+98e80d95caaba97d57e26a4a5ba5a5c1f41a5e91b0f616240ae0857218e75e61-0019,FOI 443.xlsx,missing_council,Council name not identified
+98e80d95caaba97d57e26a4a5ba5a5c1f41a5e91b0f616240ae0857218e75e61-0020,FOI 443.xlsx,missing_council,Council name not identified
+98e80d95caaba97d57e26a4a5ba5a5c1f41a5e91b0f616240ae0857218e75e61-0021,FOI 443.xlsx,missing_council,Council name not identified
+98e80d95caaba97d57e26a4a5ba5a5c1f41a5e91b0f616240ae0857218e75e61-0022,FOI 443.xlsx,missing_council,Council name not identified

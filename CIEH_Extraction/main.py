@@ -1,18 +1,14 @@
-
 import subprocess
 import sys
 from pathlib import Path
-
 from src.ai.batch_extraction import extract_all_documents
 from src.review.sync_review_sheet import sync_review_sheet
 from run_data_quality import run_quality_audit
-
 
 BASE_DIR = Path(__file__).resolve().parent
 PARSED_DIR = BASE_DIR / "data" / "parsed"
 EXTRACTED_DIR = BASE_DIR / "data" / "extracted"
 REVIEW_PATH = BASE_DIR / "data" / "review" / "cieh_review.xlsx"
-
 
 def run_pipeline():
     print("\n=== CIEH EXTRACTION PIPELINE ===", flush=True)

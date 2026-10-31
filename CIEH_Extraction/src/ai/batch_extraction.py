@@ -6,18 +6,10 @@ from src.ai.extraction_service import extract_document
 from src.ai.save_extraction import save_extraction
 
 
-def extract_all_documents(
-    parsed_directory: Path,
-    extracted_directory: Path
-) -> dict:
-
+def extract_all_documents(parsed_directory: Path, extracted_directory: Path) -> dict:
     parsed_directory = Path(parsed_directory)
     extracted_directory = Path(extracted_directory)
-
-    extracted_directory.mkdir(
-        parents=True,
-        exist_ok=True
-    )
+    extracted_directory.mkdir(parents=True,exist_ok=True)
 
     summary = {
         "total": 0,
@@ -28,9 +20,7 @@ def extract_all_documents(
     }
 
     for file_path in sorted(parsed_directory.glob("*.json")):
-
         summary["total"] += 1
-
         try:
             # Read parsed document
             with file_path.open("r", encoding="utf-8") as file:
@@ -38,10 +28,13 @@ def extract_all_documents(
 
             # Get SHA-256 hash of original document
             source = parsed_document.get("source") or {}
+
             file_hash = source.get("file_hash")
 
             if not file_hash:
-                raise ValueError("Missing source file hash")
+                file_hash = file_path.stem
+
+            parsed_document["source"] = {**source, "file_hash": file_hash}
 
             # Each original document has one extraction JSON
             output_path = extracted_directory / f"{file_hash}.json"
@@ -58,23 +51,14 @@ def extract_all_documents(
             extraction_data = extract_document(parsed_document)
 
             # Save the structured JSON
-            save_extraction(
-                extraction_data,
-                extracted_directory
-            )
+            save_extraction(extraction_data,extracted_directory)
 
             summary["completed"] += 1
             print(f"Completed: {file_path.name}")
 
         except Exception as error:
-
             summary["failed"] += 1
-
-            summary["errors"].append({
-                "file": file_path.name,
-                "error": str(error)
-            })
-
+            summary["errors"].append({"file": file_path.name, "error": str(error)})
             print(f"Failed: {file_path.name} — {error}")
 
     return summary

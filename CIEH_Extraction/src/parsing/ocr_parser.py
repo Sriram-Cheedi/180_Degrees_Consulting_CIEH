@@ -101,10 +101,6 @@ def parse_image(file_metadata):
 
     return parsed_data
 
-
-
-
-
 def read_scanned_pdf(file_path):
     file_path = Path(file_path)
     result = pdf_converter.convert(file_path)

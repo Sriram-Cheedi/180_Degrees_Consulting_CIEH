@@ -1,26 +1,16 @@
-
 import csv
 from pathlib import Path
-
 from src.validation.data_quality import audit_extractions
-
 
 EXTRACTED_DIR = Path("data/extracted")
 OUTPUT_PATH = Path("data/review/data_quality_issues.csv")
 
-
 def run_quality_audit():
     summary, issues = audit_extractions(EXTRACTED_DIR)
 
-    OUTPUT_PATH.parent.mkdir(
-        parents=True,
-        exist_ok=True
-    )
+    OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
 
-    with OUTPUT_PATH.open(
-        "w", newline="", encoding="utf-8-sig"
-    ) as file:
-
+    with OUTPUT_PATH.open("w", newline="", encoding="utf-8-sig") as file:
         writer = csv.DictWriter(
             file,
             fieldnames=[
@@ -45,10 +35,7 @@ def run_quality_audit():
 
     for issue in issues:
         issue_type = issue["issue_type"]
-
-        issue_counts[issue_type] = (
-            issue_counts.get(issue_type, 0) + 1
-        )
+        issue_counts[issue_type] = (issue_counts.get(issue_type, 0) + 1)
 
     print("\nIssues by type:")
 
